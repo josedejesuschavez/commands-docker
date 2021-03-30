@@ -1,0 +1,10 @@
+Docker
+
+Name:
+Run mode interactive
+
+Description:
+Run a command in a new container in mode interactive
+
+Params:
+- Image name

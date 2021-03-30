@@ -1,0 +1,24 @@
+Docker
+
+Description:
+Commands
+
+FROM       -> Instruction initializes a new build stage
+              and sets the base image
+RUN        -> Instruction will execute any commands in
+              a new layer on top of current image
+COPY       -> Instruction copies new files or directories
+ADD        -> Instruction copies new files, directories
+              or remote file URLs
+CMD        -> Specifies what command to run within the container
+ENTRYPOINT -> Everytime execute
+LABEL      -> You can andd labels to yout images to help organize
+              images by project
+ENV        -> Update the PATH environment variable
+VOLUME     -> Instruction creates a mount point
+EXPOSE     -> You can specify whether the port listens on TCP or UDP.
+              It functions as a type of documentation
+
+Multi-stage
+COPY --from=backend /app /container -> Copy app the image backed to the new image
+COPY --from=0 /app /container       -> Copy app the image 0 to the new image

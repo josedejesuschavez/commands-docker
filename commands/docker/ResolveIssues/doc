@@ -1,0 +1,11 @@
+Docker
+
+Name:
+Resolve issues
+
+Description:
+Problem execute elasticsearch because problem max virtual memory
+
+Solution:
+wsl -d docker-desktop
+sysctl -w vm.max_map_count=262144

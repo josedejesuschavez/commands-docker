@@ -1,0 +1,10 @@
+Docker
+
+Name:
+Fetch the logs of a container
+
+Description:
+Fetch the logs of a container
+
+Params:
+- Container ID

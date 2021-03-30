@@ -1,0 +1,5 @@
+#!/bin/bash
+
+volume=${1}
+
+docker volume create $volume

@@ -1,0 +1,10 @@
+Docker
+
+Name:
+DockerCompose-StopAndRemoveContainers
+
+Description:
+DockerCompose-StopAndRemoveContainers
+
+Params:
+- Param 1

@@ -1,0 +1,19 @@
+Docker
+
+Name:
+Run
+
+Description:
+Run
+
+-it          -> 
+--rm         -> Automatically remove the container when it exits
+-p           -> Publish a container's port(s) to the host
+--restart    -> always, no, unless-stopped, on-failure
+--memory     -> --memory=500m
+--cpus       -> --cpus=1.5
+--cpu-shares -> relative weight
+-v           -> Bind mound a volume
+                -v volumetest:/data
+                -v $PWD:/data
+Final        -> Name image

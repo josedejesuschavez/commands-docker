@@ -1,0 +1,5 @@
+#!/bin/bash
+
+containerID="${1}"
+
+docker exec -it $containerID bash
